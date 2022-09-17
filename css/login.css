@@ -178,18 +178,22 @@ iframe {
 }
 
 .wrap-login100 {
+  display: flex;
   width: 100%;
+  position: relative;
   height: 100%;
   background: #fff;
   border-radius: 10px;
   overflow: hidden;
   padding: 77px 55px 33px 55px;
-
-  box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 10px 0px rgb(0 0 0 / 10%);
   -moz-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 5px 10px 0px rgb(0 0 0 / 10%);
   -o-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
   -ms-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
 }
 
 
@@ -376,7 +380,7 @@ iframe {
 
 @media (max-width: 576px) {
   .wrap-login100 {
-    padding: 77px 15px 33px 15px;
+    padding: 5px 5px 5px 5px;
   }
 }
 
