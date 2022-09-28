@@ -1,6 +1,8 @@
-function logar()
+ let btn = document.getElementById("btn")
+ 
+ btn.addEventListener("click",  function()
 {
-
+    event.preventDefault();
     var email = document.getElementById("login-input");
 
     var password = document.getElementById("password-input");
@@ -23,7 +25,7 @@ function logar()
             location.href="homes.html";
 
         
-            alert("Bem vindo");
+            
             
         
 
@@ -41,4 +43,4 @@ function logar()
         
         }
     }
-};
+});

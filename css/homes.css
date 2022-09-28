@@ -1,3 +1,10 @@
+li {
+    list-style-type: none;
+    margin: 5px;
+    border-radius: 10px;
+  }
+
+
 .divBusca{
     background-color:#f1f1f1;;
     border:solid #f1f1f1 1px;
@@ -73,4 +80,38 @@
     left: 360%;
     margin-top: 10px;
     padding-top: 7px;
+}
+.bairro{
+    width: 100px !important;
+    height: 100px !important;
+    margin: 5px;
+    border-radius: 10px;
+}
+.vermelho{
+    background:#E43D3D;
+}
+.amarelo{
+    background: #FBF2A2;
+}
+.verde{
+    background: #80F8A1;
+}
+.container-bairros {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div-bairros{
+    margin: 10px;
+}
+.bairro span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+/* identical to box height */
+
+
+color: #000000;
 }

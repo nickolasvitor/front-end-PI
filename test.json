@@ -1,0 +1,54 @@
+{"data" : [
+    {
+        "name": "Afogados",
+        "id":1,
+        "level":3
+    },
+    {
+        "name": "Dois Irmãos",
+        "id":2,
+        "level":1
+    },
+    {
+        "name": "BR-101",
+        "id":3,
+        "level":2
+    },
+    {
+        "name": "Tamarineira",
+        "id":4,
+        "level":1
+    },
+    {
+        "name": "Aflitos",
+        "id":5,
+        "level":1
+    },
+    {
+        "name": "Boa vista",
+        "id":6,
+        "level":3
+    },
+    {
+        "name": "Av.Norte",
+        "id":7,
+        "level":2
+    },
+    {
+        "name": "Av.Caxangá",
+        "id":8,
+        "level":2
+    },
+    {
+        "name": "Madalena",
+        "id":10,
+        "level":2
+    },
+    {
+        "name": "Várzea",
+        "id":9,
+        "level":2
+    }
+
+]
+}
