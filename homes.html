@@ -15,18 +15,41 @@
             <img class="user-avatar" src="/resources/user-avatar.svg">
             </div>
         </div>
+
+        
         <div class="divBusca">
             <input type="text" id="txtBusca" placeholder="Pesquisar..."/>
             <img src="/resources/search3.svg" id="btnBusca" alt="Buscar"/>
         </div>
+
+        <div class="div-titulo-filtro">
+            <h2 class="titulo-h2">Intensidade de Alagamento por Bairros</h2>
+            <div class="icon-filter-div">
+            <img alt="Filtro" src="/resources/filter.svg">
+            </div>
+        </div>
+        <!--Aqui aparecem os bairros dinamicamente-->
         <div class="div-bairros">
             <ul id="list" class="container-bairros">
             </ul>
         </div>
-
-
-       
+        <div>
+            <button class="btn-vermais">Ver mais</button>
+        </div>
+        <div class="div-titulo-filtro">
+            <h2 class="titulo-h2">Mapa de Calor da cidade do Recife</h2>
+        </div>
+            <div class="map-container">
+            <div id="map"></div>
+            <script type="text/javascript" src="map.js"></script>
+            <script type="text/javascript" src="/js/points.js"></script>
+            <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+            <script async
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBkkrvwJ0_PGy4vMopc-Qzi3cy1w4x1feE&libraries=visualization&callback=initMap">
+        </script>
+            </div>  
     </div>
+    
 </body>
 <script type="text/javascript" src="js/home.js"></script>
 </html>

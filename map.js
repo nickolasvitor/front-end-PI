@@ -1,0 +1,43 @@
+var map;
+var markers =   [];
+var heatmap;
+
+function initMap(){
+    map= new google.maps.Map(document.getElementById("map"),{
+    center: {lat: -8.052634,lng: -34.885223},
+    zoom:11     });
+    
+    console.log(123)
+
+    heatmap = new google.maps.visualization.HeatmapLayer();
+            }
+
+function putMarkers(){
+    $.each(points,function(key,point){
+        var position = new google.maps.LatLng(point.lat,point.lng);
+
+        var marker = new google.maps.Marker({position:position,map:map})
+
+        markers.push(marker)
+    })
+}
+
+function clearMarkers(){
+    $.each(markers,function(key,marker){
+        marker.setMap(null);
+    })
+    markers =[];
+}
+function putHeatmap(){
+    clearMarkers();
+    var _points=[];
+    $.each(points,function(key,point){
+        var position = new google.maps.LatLng(point.lat,point.lng);
+
+        
+
+        _points.push(position)
+    })
+    heatmap.setData(_points);
+    heatmap.setMap(map);
+}

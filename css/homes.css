@@ -82,8 +82,8 @@ li {
     padding-top: 7px;
 }
 .bairro{
-    width: 100px !important;
-    height: 100px !important;
+    width: 95px !important;
+    height: 95px !important;
     margin: 5px;
     border-radius: 10px;
 }
@@ -99,6 +99,7 @@ li {
 .container-bairros {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .div-bairros{
@@ -114,4 +115,83 @@ li {
 
 
 color: #000000;
+}
+
+.titulo-h2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+
+color: #373B5F;
+}
+.div-titulo-filtro {
+    display: inline-flex;
+    width: 100%;
+    justify-content: flex-start;
+    margin: 15px;
+}
+.icon-filter-div{
+display: inline-flex;
+padding-left: 18%;
+}
+.btn-vermais{
+    width: 137px;
+height: 25px;
+
+background: #F1F1F1;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+border: none;
+text-decoration: underline;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+text-decoration-line: underline;
+
+color: #000000;
+
+}
+#map{
+    height: 150px;
+    width: 319px;
+}
+.top-map{
+    position: absolute;
+    top: 20px;
+    left:200px;
+    width:400px;
+    height: 50px;
+    background-color: white;
+    z-index: 1000;
+
+}
+.gm-control-active gm-fullscreen-control{
+    background: none rgb(159, 81, 81);
+    border: 0px;
+    margin: 10px;
+    padding: 0px;
+    text-transform: none;
+    appearance: none;
+    position: absolute;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 2px;
+    height: 40px;
+    width: 40px;
+    box-shadow: rgb(0 0 0 / 30%) 0px 1px 4px -1px;
+    overflow: hidden;
+    top: 0px;
+    right: 0px;
+}
+.map-container{
+    background: #f1f1f1;
+    padding: 11px;
+    border-radius: 10px;
 }
