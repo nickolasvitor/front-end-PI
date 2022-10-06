@@ -1,4 +1,5 @@
 let list = document.querySelector("#list");
+var arrayMarkers=[];
 
 addEventListener("load",function(){
     fetch('test.json')
@@ -6,7 +7,7 @@ addEventListener("load",function(){
       return response.json();
     })
     .then(function(response) {
-      console.log(response.data);
+      /*console.log(response.data);*/
 
         response.data.forEach(function(data) {
         let item = document.createElement("li");
@@ -27,8 +28,19 @@ addEventListener("load",function(){
         item.innerHTML = '<div class="bairro"><span>'+data.name+'</span></div>';
         
         list.appendChild(item);
+
+        
+
+        
+
+        arrayMarkers.push({lat:""+data.lat+"",lng:""+data.lng+""});
+        
+      
+        
+        
       
     })
+    putMarkers(arrayMarkers);
     })
 })
 

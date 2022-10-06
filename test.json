@@ -2,52 +2,72 @@
     {
         "name": "Afogados",
         "id":1,
-        "level":3
+        "level":3,
+        "lat":-8.078734,
+        "lng":-34.909589
     },
     {
         "name": "Dois Irmãos",
         "id":2,
-        "level":1
+        "level":1,
+        "lat":-8.014122,
+        "lng":-34.951410
     },
     {
         "name": "BR-101",
         "id":3,
-        "level":2
+        "level":2,
+        "lat":-8.088719,
+        "lng":-34.946681
     },
     {
         "name": "Tamarineira",
         "id":4,
-        "level":1
+        "level":1,
+        "lat":-8.027624,
+        "lng":-34.902013
     },
     {
         "name": "Aflitos",
         "id":5,
-        "level":1
+        "level":1,
+        "lat":-8.042141,
+        "lng":-34.895048
     },
     {
         "name": "Boa vista",
         "id":6,
-        "level":3
+        "level":3,
+        "lat":-8.059315,
+        "lng":-34.887693
     },
     {
         "name": "Av.Norte",
         "id":7,
-        "level":2
+        "level":2,
+        "lat":-8.020844,
+        "lng": -34.917284
     },
     {
         "name": "Av.Caxangá",
         "id":8,
-        "level":2
+        "level":2,
+        "lat":-8.055430,
+        "lng":-34.912332
     },
     {
         "name": "Madalena",
         "id":10,
-        "level":2
+        "level":2,
+        "lat":-8.049827,
+        "lng": -34.910477
     },
     {
         "name": "Várzea",
         "id":9,
-        "level":2
+        "level":2,
+        "lat":-8.048487,
+        "lng":-34.960281
     }
 
 ]

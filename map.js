@@ -7,13 +7,17 @@ function initMap(){
     center: {lat: -8.052634,lng: -34.885223},
     zoom:11     });
     
-    console.log(123)
+    
 
     heatmap = new google.maps.visualization.HeatmapLayer();
             }
 
-function putMarkers(){
-    $.each(points,function(key,point){
+function putMarkers(arrayMarkers){
+   /*console.log(arrayMarkers)*/
+   
+
+    $.each(arrayMarkers,function(key,point){
+
         var position = new google.maps.LatLng(point.lat,point.lng);
 
         var marker = new google.maps.Marker({position:position,map:map})
