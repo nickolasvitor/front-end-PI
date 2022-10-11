@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="manifest" href="manifest.json">
+    <script type="text/javascript" src="sw.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/homes.css">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <title>Document</title>
+</head>
+<body>
+    <div class="home-app">
+        <div class="container-user-avatar">
+            <div>
+                <img alt="voltar" class="setinha"  src="/resources/setinha.svg"/>
+            </div>
+            <div>
+            <img  alt="perfil" class="user-avatar" src="/resources/user-avatar.svg">
+            </div>
+        </div>
+
+       
+        <div class="div-titulo-filtro">
+            <h2 class="titulo-h2">Informações sobre o bairro</h2>
+        </div>
+        <div class="container-normal">
+            <h2 id="bairro" class="h1-normal"></h2>
+            <p id ="total-entupido" class="paragrafo-normal">Quantidade de bueros entupidos:</p>
+            <p id ="total-monitorados" class="paragrafo-normal">Quantidade de bueros monitorados:</p>
+        </div>
+
+        <div class="div-titulo-filtro">
+            <h2 id="bairro1" class="titulo-h2">Mapa de calor do bairro</h2>
+        </div>
+
+
+
+            <div class="map-container">
+            <div id="map" class="mapbairros"></div>
+            <script type="text/javascript" src="mapbairro.js"></script>
+            <script type="text/javascript" src="/js/points.js"></script>
+            <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+            <script async
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBkkrvwJ0_PGy4vMopc-Qzi3cy1w4x1feE&libraries=visualization&callback=initMap">
+        </script>
+            </div>  
+    </div>
+    
+</body>
+<script type="text/javascript" src="js/bairro.js"></script>
+</html>

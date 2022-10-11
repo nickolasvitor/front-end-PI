@@ -162,6 +162,10 @@ color: #000000;
     height: 150px;
     width: 319px;
 }
+.mapbairros{
+    height: 350px !important;
+    width: 319px !important;
+}
 .top-map{
     position: absolute;
     top: 20px;
@@ -194,4 +198,44 @@ color: #000000;
     background: #f1f1f1;
     padding: 11px;
     border-radius: 10px;
+}
+.map-container-bairros{
+    background: #f1f1f1;
+    padding: 11px;
+    border-radius: 10px;
+}
+.container-normal {
+    background: #f1f1f1;
+    padding: 11px;
+    border-radius: 10px;
+    width: 100%;
+    margin: 12px;
+    min-height: 150px;
+}
+.setinha {
+    position: relative;
+    margin-top: 17px;
+    padding-top: 7px;
+    left: -480%;
+}
+.paragrafo-normal{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    color: #000000;
+}
+.h1-normal{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #373B5F;
 }
