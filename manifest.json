@@ -2,7 +2,7 @@
 "name" : "Raincife",
 "shortname" : "RR",
 "theme_color":"#373B5F",
-"background_color":"#373B5F",
+"background_color":"#f1f1f1",
 "start_url":"/index.html",
 "lang":"pt-BR",
 "orientation":"any",

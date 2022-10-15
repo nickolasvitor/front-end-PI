@@ -11,6 +11,10 @@ addEventListener("load",function(){
       /*console.log(response.data);*/
         x=0;
         
+        response.data.sort(function(a, b) {
+          return (b.level) - (a.level);
+      });
+
         response.data.forEach(function(data) {
         let item = document.createElement("li");
         
