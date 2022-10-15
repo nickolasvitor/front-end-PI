@@ -16,44 +16,63 @@ addEventListener("load",function(){
     .then(function(response) {
       console.log(response.data);
 
-        response.data[0].bueiros.forEach(function(data) {
-            console.log(data.rua);
+      var url = window.location.search;
+      var urlParametro = new URLSearchParams(url);
+      var idBairro = urlParametro.get('tileId')
+      var idmatch = localStorage.getItem(idBairro)
 
-        
+      
+
+
+
+    for(i=0;i<response.data.length;i++)
+    {
+      console.log(response.data[i].id+' = '+idmatch)
+      if(response.data[i].id== idmatch)
+      {
+        response.data[i].bueiros.forEach(function(data) 
+        {
+        console.log(data.rua);
+
+            
 
         arrayMarkers.push({lat:""+data.lat+"",lng:""+data.lng+""});
+            
+          
+            
+            
+          
+        })
+
+        let item = document.createElement("tot-e");
+        let item1 = document.createElement("tot-m");
+
+        let bairro = document.createElement("bairro-name");
+
+        let bairro1 = document.createElement("bairro-name1");
+
         
-      
+
+        bairro.innerHTML = '<h2  class="h1-normal">'+response.data[i].name+'</h2>';
+        bairro1.innerHTML = '<span  class="titulo-h2"> '+response.data[i].name+'</span>';
         
-        
-      
+
+        item.innerHTML = '<span>'+response.data[i].bueiros.length+'</span>';
+
+        item1.innerHTML = '<span>'+response.data[i].bueiros.length+'</span>';
+
+        totalentupido.appendChild(item);
+
+        totalmonitorado.appendChild(item1);
+
+        bairroid.appendChild(bairro)
+        bairroid1.appendChild(bairro1)
+
+        putMarkers(arrayMarkers);
+    }
+    }
     })
-    let item = document.createElement("tot-e");
-    let item1 = document.createElement("tot-m");
-
-    let bairro = document.createElement("bairro-name");
-
-    let bairro1 = document.createElement("bairro-name1");
-
-    
-
-    bairro.innerHTML = '<h2  class="h1-normal">'+response.data[0].name+'</h2>';
-    bairro1.innerHTML = '<span  class="titulo-h2"> '+response.data[0].name+'</span>';
-    
-
-    item.innerHTML = '<span>'+response.data[0].bueiros.length+'</span>';
-
-    item1.innerHTML = '<span>'+response.data[0].bueiros.length+'</span>';
-
-    totalentupido.appendChild(item);
-
-    totalmonitorado.appendChild(item1);
-
-    bairroid.appendChild(bairro)
-    bairroid1.appendChild(bairro1)
-
-    putMarkers(arrayMarkers);
-    })
+      
 })
 
 

@@ -10,15 +10,13 @@
                 "rua":"R. Albatroz, 104a - Afogados",
                 "id":1,
                 "lat":-8.075943, 
-                "lng":-34.911941,
-                "level":2
+                "lng":-34.911941
             },
             {
                 "rua":"R. Manuel Padilha, 125-1 - Afogados",
                 "id":2,
                 "lat":-8.077055, 
-                "lng":-34.912278,
-                "level":3
+                "lng":-34.912278
 
 
             },
@@ -26,8 +24,7 @@
                 "rua":"R. Alfredo Maia, 72 - Afogados",
                 "id":3,
                 "lat":-8.076187, 
-                "lng":-34.909752,
-                "level":1
+                "lng":-34.909752
 
 
             },
@@ -35,8 +32,7 @@
                 "rua":"R. Dr. Adélino, 349-261 - Afogados",
                 "id":4,
                 "lat":-8.075628, 
-                "lng":-34.910168,
-                "level":3
+                "lng":-34.910168
 
 
             }
@@ -47,63 +43,352 @@
         "id":2,
         "level":1,
         "lat":-8.014122,
-        "lng":-34.951410
+        "lng":-34.951410,
+        "bueiros":[
+            {
+                "rua":"R. Luís da Mota Silveira, 125 - Dois Irmãos",
+                "id":5,
+                "lat":-8.0150007, 
+                "lng":-34.9429523
+            },
+            {
+                "rua":"Praça Dois Irmãos, 1395-1269 - Dois Irmãos",
+                "id":6,
+                "lat":-8.015663, 
+                "lng":-34.944792
+
+
+            },
+            {
+                "rua":"R. Jorn. Wilsom Lustosa, 13 - Dois Irmãos",
+                "id":7,
+                "lat":-8.014709, 
+                "lng":-34.940399
+
+
+            },
+            {
+                "rua":"R. Manuel de Medeiros, 404-530 - Dois Irmãos",
+                "id":8,
+                "lat":-8.014302, 
+                "lng":-34.947999
+
+
+            }
+        ]
     },
     {
         "name": "BR-101",
         "id":3,
         "level":2,
         "lat":-8.088719,
-        "lng":-34.946681
+        "lng":-34.946681,
+        "bueiros":[
+            {
+                "rua":"BR-101, 3000 - Jardim São Paulo",
+                "id":9,
+                "lat":-8.088504, 
+                "lng":-34.946676
+            },
+            {
+                "rua":"BR-101 - Jardim São Paulo",
+                "id":10,
+                "lat":-8.086190, 
+                "lng":-34.945959
+
+
+            },
+            {
+                "rua":"BR-101 - Jardim São Paulo",
+                "id":11,
+                "lat":-8.086820, 
+                "lng":-34.946302
+
+
+            },
+            {
+                "rua":"Rod. Gov. Mário Covas, 324 - Jardim São Paulo",
+                "id":12,
+                "lat":-8.084703, 
+                "lng":-34.944794
+
+
+            }
+        ]
     },
     {
         "name": "Tamarineira",
         "id":4,
         "level":1,
         "lat":-8.027624,
-        "lng":-34.902013
+        "lng":-34.902013,
+        "bueiros":[
+            {
+                "rua":"R. Soares Moreno, 113-63 - Tamarineira",
+                "id":13,
+                "lat":-8.030203, 
+                "lng":-34.905151
+            },
+            {
+                "rua":"Ac. Publico, 118 - Tamarineira",
+                "id":14,
+                "lat":-8.029321, 
+                "lng":-34.905344
+
+
+            },
+            {
+                "rua":"R. Gomes Coutinho, 284 - Tamarineira",
+                "id":15,
+                "lat":-8.029120, 
+                "lng":-34.905698
+
+
+            },
+            {
+                "rua":"R. São Vicente, 46-238 - Tamarineira",
+                "id":16,
+                "lat":-8.028780, 
+                "lng":-34.906106
+
+
+            }
+        ]
+        
     },
     {
         "name": "Aflitos",
         "id":5,
         "level":1,
         "lat":-8.042141,
-        "lng":-34.895048
+        "lng":-34.895048,
+        "bueiros":[
+            {
+                "rua":"Rua da Angustura, 186 - Aflitos",
+                "id":17,
+                "lat":-8.041695, 
+                "lng":-34.896303
+            },
+            {
+                "rua":"R. Padre Silvino Guedes, 123-1 - Aflitos",
+                "id":18,
+                "lat":-8.041929, 
+                "lng":-34.895166
+
+
+            },
+            {
+                "rua":"Rua Manuel de Carvalho, 179 - Aflitos",
+                "id":19,
+                "lat":-8.040602, 
+                "lng":-34.895743
+
+
+            },
+            {
+                "rua":"R. Luís Rodolfo de Araújo, 2-82 - Aflitos",
+                "id":20,
+                "lat":-8.038785, 
+                "lng":-34.898564
+
+
+            }
+        ]
     },
     {
         "name": "Boa vista",
         "id":6,
         "level":3,
         "lat":-8.059315,
-        "lng":-34.887693
+        "lng":-34.887693,
+        "bueiros":[
+            {
+                "rua":"R. Osvaldo Cruz, 354 - Boa Vista",
+                "id":21,
+                "lat":-8.055854, 
+                "lng":-34.892281
+            },
+            {
+                "rua":"R. João Fernandes Viêira, 350 - Boa Vista",
+                "id":22,
+                "lat":-8.053514, 
+                "lng":-34.891848
+
+
+            },
+            {
+                "rua":"R. Joaquim Felipe, 60 - Boa Vista",
+                "id":23,
+                "lat":-8.053085, 
+                "lng":-34.890495
+
+
+            },
+            {
+                "rua":"Av. João de Barros, 471 - Boa Vista",
+                "id":24,
+                "lat":-8.050601, 
+                "lng":-34.890043
+
+
+            }
+        ]
     },
     {
         "name": "Av.Norte",
         "id":7,
         "level":2,
         "lat":-8.020844,
-        "lng": -34.917284
+        "lng": -34.917284,
+        "bueiros":[
+            {
+                "rua":"Av. Norte Miguel Arraes de Alencar, 4284 - sala 109 - Tamarineira",
+                "id":25,
+                "lat":-8.026859, 
+                "lng":-34.904419
+            },
+            {
+                "rua":"Av. Norte Miguel Arraes de Alencar, 4200 - Tamarineira",
+                "id":26,
+                "lat":-8.026896, 
+                "lng":-34.904371
+
+
+            },
+            {
+                "rua":"Av. Norte Miguel Arraes de Alencar, 4111 - Tamarineira",
+                "id":27,
+                "lat":-8.027912, 
+                "lng": -34.903106
+
+
+            },
+            {
+                "rua":"Av. Norte Miguel Arraes de Alencar, 3998 - Tamarineira",
+                "id":28,
+                "lat":-8.028688, 
+                "lng":-34.901979
+
+
+            }
+        ]
     },
     {
         "name": "Av.Caxangá",
         "id":8,
         "level":2,
         "lat":-8.055430,
-        "lng":-34.912332
+        "lng":-34.912332,
+        "bueiros":[
+            {
+                "rua":"Av. Caxangá - Iputinga",
+                "id":29,
+                "lat":-8.041300, 
+                "lng":-34.937922
+            },
+            {
+                "rua":"Av. Caxangá, 2864 - Iputinga",
+                "id":30,
+                "lat":-8.0444106, 
+                "lng":-34.9332982
+
+
+            },
+            {
+                "rua":"PE-005, 2482-2598 - Cordeiro",
+                "id":31,
+                "lat":-8.045790, 
+                "lng":-34.929302
+
+
+            },
+            {
+                "rua":"R. Antero Mota, 11 - Cordeiro",
+                "id":32,
+                "lat":-8.046532, 
+                "lng":-34.927944
+
+
+            }
+        ]
     },
     {
         "name": "Madalena",
         "id":10,
         "level":2,
         "lat":-8.049827,
-        "lng": -34.910477
+        "lng": -34.910477,
+        "bueiros":[
+            {
+                "rua":"R. Antônio de Sá, 108 - Madalena",
+                "id":33,
+                "lat":-8.056312, 
+                "lng":-34.913960
+            },
+            {
+                "rua":"R. João Crescêncio, 22 - Madalena",
+                "id":34,
+                "lat":-8.056026, 
+                "lng":-34.914889
+
+
+            },
+            {
+                "rua":"R. Dr. Berardo, 142-200 - Madalena",
+                "id":35,
+                "lat":-8.053131, 
+                "lng":-34.910437
+
+
+            },
+            {
+                "rua":"R. Galvão Raposo, 333-243 - Mad",
+                "id":36,
+                "lat":-8.050053, 
+                "lng":-34.910871
+
+
+            }
+        ]
     },
     {
         "name": "Várzea",
         "id":9,
         "level":2,
         "lat":-8.048487,
-        "lng":-34.960281
+        "lng":-34.960281,
+        "bueiros":[
+            {
+                "rua":"R. Ildefonso Araújo do Rêgo, 157-1 - Várzea",
+                "id":37,
+                "lat":-8.041535, 
+                "lng":-34.957595
+            },
+            {
+                "rua":"R. Maria Jaboatão, 179-53 - Várzea",
+                "id":38,
+                "lat":-8.042473, 
+                "lng":-34.952722
+
+
+            },
+            {
+                "rua":"R. Pitanga, 158-74 - Várzea",
+                "id":39,
+                "lat":-8.0404723,
+                "lng":-34.9587549 
+
+
+            },
+            {
+                "rua":"R. Apuleu Viêira, 2-180 - Várzea",
+                "id":40,
+                "lat":-8.038767, 
+                "lng":-34.957875
+
+
+            }
+        ]
     }
 
 ]

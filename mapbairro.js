@@ -3,6 +3,8 @@ var markers =   [];
 var heatmap;
 
 function initMap(){
+
+    
     map= new google.maps.Map(document.getElementById("map"),{
     center: {lat: -8.078734,lng: -34.909589},
     zoom:15     });
