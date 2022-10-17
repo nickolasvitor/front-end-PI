@@ -242,3 +242,45 @@ color: #373B5F;
 .tile{
     text-decoration: none;
 }
+.duvida-container {
+    margin-top: 55px;
+    display: flex;
+    background: #f1f1f1;
+    border-radius: 8px;
+    align-items: center;
+    padding: 8px;
+}
+.interrogacao{
+    width: 30px;
+}
+
+.titulo-forms{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #373B5F;
+    margin:5px;
+    padding:5px;
+}
+.input-form{
+    background: #f1f1f1;
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    margin:5px;
+    padding:5px;
+
+}
+.submit-button{
+    width: 99px;
+    height: 37px;
+    left: 143px;
+    top: 676px;
+    color:#fff;
+
+    background: #373B5F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}

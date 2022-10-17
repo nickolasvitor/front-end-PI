@@ -1,0 +1,46 @@
+
+.help-app{
+   
+    display: flex;
+    justify-content: center;
+   
+    flex-direction: column;
+    align-content: center;
+}
+
+.div-titulo-help{
+    margin: 15px;
+    margin-left: 10%;
+}
+.centralizar-1{
+    width: 150%;
+}
+.forms{
+    display: flex;
+    margin-left: 10%;
+}
+.input-form{
+    background: #f1f1f1;
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    margin:5px;
+    padding:5px;
+    width: 80%;
+}
+.input-msg{
+    background: #f1f1f1;
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    margin:5px;
+    padding:5px;
+    width: 80%;
+    height: 300px;
+}
+.centralizar{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-content: center;
+    margin-left: 5px;
+    margin-top: 5px;
+}
