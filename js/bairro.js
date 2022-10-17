@@ -14,7 +14,7 @@ addEventListener("load",function(){
       return response.json();
     })
     .then(function(response) {
-      console.log(response.data);
+    
 
       var url = window.location.search;
       var urlParametro = new URLSearchParams(url);
@@ -27,12 +27,12 @@ addEventListener("load",function(){
 
     for(i=0;i<response.data.length;i++)
     {
-      console.log(response.data[i].id+' = '+idmatch)
+      
       if(response.data[i].id== idmatch)
       {
         response.data[i].bueiros.forEach(function(data) 
         {
-        console.log(data.rua);
+        
 
             
 
