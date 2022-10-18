@@ -82,6 +82,7 @@ li {
     padding-top: 7px;
 }
 .bairro{
+    
     width: 95px !important;
     height: 95px !important;
     margin: 5px;
@@ -283,4 +284,11 @@ color: #373B5F;
     background: #373B5F;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
+}
+.icon-tile{
+    margin-left: 5px;
+    transform: translate(68px, 58px);
+}
+.div-tile{
+    display: flex;
 }

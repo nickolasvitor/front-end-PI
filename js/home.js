@@ -22,17 +22,20 @@ addEventListener("load",function(){
         if(data.level==3)
         {
         item.classList.add("vermelho");
+        item.innerHTML = '<a href=" " class="tile"><div id="tile'+x+'" onclick="entrarBairro(this.id)" class="bairro"><span>'+data.name+'</span><div><img alt="Filtro" class="icon-tile" src="/resources/level3.svg"></div></div></a>';
         }
         if(data.level==2)
         {
         item.classList.add("amarelo");
+        item.innerHTML = '<a href=" " class="tile"><div id="tile'+x+'" onclick="entrarBairro(this.id)" class="bairro"><span>'+data.name+'</span><div><img alt="Filtro" class="icon-tile" src="/resources/level2.svg"></div></div></a>';
         }
         if(data.level==1)
         {
         item.classList.add("verde");
+        item.innerHTML = '<a href=" " class="tile"><div  id="tile'+x+'" onclick="entrarBairro(this.id)" class="bairro"><span>'+data.name+'</span> <div><img alt="Filtro" class="icon-tile" src="/resources/level1.svg"></div></div></a>';
         }
         
-        item.innerHTML = '<a href=" " class="tile"><div id="tile'+x+'" onclick="entrarBairro(this.id)" class="bairro"><span>'+data.name+'</span></div></a>';
+        
         
         list.appendChild(item);
 
