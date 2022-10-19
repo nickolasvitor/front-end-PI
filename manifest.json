@@ -2,14 +2,37 @@
 "name" : "Raincife",
 "shortname" : "RR",
 "theme_color":"#f1f1f1",
+"display_override": ["fullscreen", "minimal-ui"],
 "background_color":"#f1f1f1",
 "start_url":"/index.html",
 "lang":"pt-BR",
 "short_name": "RCF",
+"share_target": {
+    "action": "index.html",
+    "params": {
+      "title": "google",
+      "text": "dum site de pesquisa",
+      "url": "https://www.google.com/"
+    }
+  },
+"dir":"auto",
+"iarc_rating_id": "justaexample",
+"related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=ai.meteum"
+    }],
+"prefer_related_applications":"false",
 "description": "Descubra quais bueiros estão entupidos nas proximidades",
 "categories": ["chuva", "rua", "alagamento","bueiros"],
 "orientation":"any",
 "scope": "/",
+"shortcuts" : [
+    {
+      "name": "Tela inicial",
+      "url": "/index.html",
+      "description": "Somente a tela inicial"
+    }],
 "display":"standalone",
 "screenshots" : [
     {
