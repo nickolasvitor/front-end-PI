@@ -65,27 +65,6 @@ self.addEventListener('sync', event => {
     }
 });
 
-if ('serviceWorker' in navigator) {
-  const registration = navigator.serviceWorker.ready;
-  // Check if periodicSync is supported
-  if ('periodicSync' in registration) {
-    // Request permission
-    const status = navigator.permissions.query({
-      name: 'periodic-background-sync',
-    });
-    if (status.state === 'granted') {
-      try {
-        // Register new sync every 24 hours
-         registration.periodicSync.register('news', {
-          minInterval: 24 * 60 * 60 * 1000, // 1 day
-        });
-        console.log('Periodic background sync registered!');
-      } catch(e) {
-        console.error(`Periodic background sync failed:\n${e}`);
-      }
-    }
-  }
-}
   //Atualizacao cache
   /*event.respondWith(
     caches.match(event.request)
