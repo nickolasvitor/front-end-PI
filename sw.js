@@ -56,14 +56,7 @@ self.addEventListener('fetch', function (event) {
      }
    }());
 
-   async function requestBackgroundSync() {
-    await self.registration.sync.register('my-tag-name');
-}
-self.addEventListener('sync', event => {
-  if (event.tag === 'my-tag-name') {
-      event.waitUntil(doTheWork());
-  }
-});
+   
 
   //Atualizacao cache
   /*event.respondWith(
