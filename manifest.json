@@ -22,9 +22,9 @@
       "platform": "play",
       "url": "https://play.google.com/store/apps/details?id=ai.meteum"
     }],
-"prefer_related_applications":"false",
+"prefer_related_applications":false,
 "description": "Descubra quais bueiros estão entupidos nas proximidades",
-"categories": ["chuva", "rua", "alagamento","bueiros"],
+"categories": ["navigation", "weather", "utilities","travel"],
 "orientation":"any",
 "scope": "/",
 "shortcuts" : [
