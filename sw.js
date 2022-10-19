@@ -28,6 +28,13 @@ self.addEventListener('install', event => {
         './resources/AppIcons/android/mipmap-xhdpi/icon.png',
         './resources/AppIcons/android/mipmap-xxhdpi/icon.png',
         './resources/AppIcons/android/mipmap-xxxhdpi/icon.png',
+        './resources/AppIcons/playstore2.png',
+        './resources/AppIcons/appstore2.png',
+        './resources/AppIcons/android/mipmap-hdpi/icon2.png',
+        './resources/AppIcons/android/mipmap-mdpi/icon2.png',
+        './resources/AppIcons/android/mipmap-xhdpi/icon2.png',
+        './resources/AppIcons/android/mipmap-xxhdpi/icon2.png',
+        './resources/AppIcons/android/mipmap-xxxhdpi/icon2.png',
         
       ]))
   );
