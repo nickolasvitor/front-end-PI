@@ -66,17 +66,17 @@ self.addEventListener('sync', event => {
 });
 
 if ('serviceWorker' in navigator) {
-  const registration = await navigator.serviceWorker.ready;
+  const registration = navigator.serviceWorker.ready;
   // Check if periodicSync is supported
   if ('periodicSync' in registration) {
     // Request permission
-    const status = await navigator.permissions.query({
+    const status = navigator.permissions.query({
       name: 'periodic-background-sync',
     });
     if (status.state === 'granted') {
       try {
         // Register new sync every 24 hours
-        await registration.periodicSync.register('news', {
+         registration.periodicSync.register('news', {
           minInterval: 24 * 60 * 60 * 1000, // 1 day
         });
         console.log('Periodic background sync registered!');
