@@ -15,7 +15,9 @@
     <div class="home-app">
         <div class="container-user-avatar">
             <div>
+                <a href="perfil.html">
             <img class="user-avatar" src="/resources/user-avatar.svg">
+        </a>
             </div>
             
         </div>
@@ -28,10 +30,26 @@
 
         <div class="div-titulo-filtro">
             <h2 class="titulo-h2">Intensidade de Alagamento por Bairros</h2>
-            <div class="icon-filter-div">
+            <div class="icon-filter-div"> <div id="dropdown-1" class="dropdown dropdown-processed">
+                <a class="dropdown-link" href="#">
             <img alt="Filtro" src="/resources/filter.svg">
+        </a>
+        <div class="dropdown-container" style="display: none;">
+          <ul class="filtro-ul">
+            <li>Bairros mais afetados</li>
+            <li>Bairros menos afetados</li>
+            <li>A - Z</li>
+            <li>Z - A</li>
+          </ul>
+        </div>
+      </div>
             </div>
         </div>
+        
+        
+       
+
+
         <!--Aqui aparecem os bairros dinamicamente-->
         <div class="div-bairros">
             <ul id="list" class="container-bairros">
@@ -40,6 +58,8 @@
         <div>
             <button class="btn-vermais">Ver mais</button>
         </div>
+
+
         <div class="div-titulo-filtro">
             <h2 class="titulo-h2">Bairros com bueiros entupidos da cidade do Recife</h2>
         </div>
