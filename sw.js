@@ -21,7 +21,6 @@ self.addEventListener('install', event => {
         './pages/help.html',
         './pages/bairros.json',
         './js/login.js',
-        './js/points.js',
         './resources/AppIcons/playstore.png',
         './resources/AppIcons/appstore.png',
         './resources/AppIcons/android/mipmap-hdpi/icon.png',
