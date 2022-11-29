@@ -13,11 +13,13 @@
     margin-left: 10%;
 }
 .centralizar-1{
-    width: 150%;
+    width: 100%;
 }
 .forms{
     display: flex;
-    margin-left: 20%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .input-form{
     background: #f1f1f1;
@@ -25,7 +27,7 @@
     border-radius: 10px;
     margin:5px;
     padding:5px;
-    width: 80%;
+    width: 100%;
     height: 35px;
 }
 .input-msg{
@@ -34,13 +36,13 @@
     border-radius: 10px;
     margin:5px;
     padding:5px;
-    width: 80%;
+    width: 100%;
     height: 300px;
 }
 .centralizar{
     display: flex;
     align-items: flex-start;
-    justify-content: flex-end;
+    justify-content: center;
     align-content: center;
     margin-left: 5px;
     margin-top: 5px;

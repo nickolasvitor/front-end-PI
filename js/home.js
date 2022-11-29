@@ -8,7 +8,7 @@ addEventListener("load",function(){
       return response.json();
     })
     .then(function(response) {
-      /*console.log(response.data);*/
+      console.log(response.data);
         x=0;
         
         response.data.sort(function(a, b) {
