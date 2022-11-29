@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="shortcut icon" href="favicon.png">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="theme-color" content="#f1f1f1"/>
@@ -15,9 +16,19 @@
     <div class="home-app">
         <div class="container-user-avatar">
             <div>
+                <a href="index.html">
+                  <img class="sair" src="/resources/sair.svg">
+                </a>
+            </div>
+
+            <div>
+                  <img style="transform: translate(0px, 25px);" src="/resources/Logoo.svg">
+            </div>
+
+            <div>
                 <a href="perfil.html">
-            <img class="user-avatar" src="/resources/user-avatar.svg">
-        </a>
+                  <img class="user-avatar" src="/resources/user-avatar.svg">
+                </a>
             </div>
             
         </div>
@@ -46,6 +57,29 @@
             </div>
         </div>
         
+        <div style="display:inline-flex ;">
+             <div class="divizinha-icons">
+                <img src="resources/icon-vermelho.svg" alt="X vermelho">
+                <p class="alerta-critico">
+                    Alerta Crítico
+                </p>
+
+            </div>
+            <div class="divizinha-icons">
+                <img src="resources/icon-amarelo.svg" alt="X vermelho">
+                <p class="alerta-critico">
+                    Alerta de atenção
+                </p>
+            </div>
+
+            <div class="divizinha-icons">
+                <img src="resources/icon-verde.svg" alt="X vermelho">
+                <p class="alerta-critico">
+                    Sem alerta
+                </p>
+            </div>
+
+        </div>
         
        
 
@@ -53,6 +87,9 @@
         <!--Aqui aparecem os bairros dinamicamente-->
         <div class="div-bairros">
             <ul id="list" class="container-bairros">
+
+
+
             </ul>
         </div>
         <div>
